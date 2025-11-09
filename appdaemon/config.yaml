@@ -15,6 +15,7 @@ ports:
   5050/tcp: 5050
 ports_description:
   5050/tcp: AppDaemon
+host_network: true
 map:
   - addon_config:rw
   - homeassistant_config:rw
